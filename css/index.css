@@ -1,0 +1,21 @@
+.kids {
+    width: 50px;
+}
+.About-Kids {
+    background-color: aqua;
+    color: white;
+}
+.button-style {
+    border: orange;
+    background-color: orange;
+    color: white; 
+    border-radius: 5em;
+    margin: 10px;}
+section {
+    background-color: aqua;
+    color: white;}
+.button-learn {
+    border: blue;
+    background-color: white;
+    border-radius: 5em;
+}
