@@ -1,8 +1,20 @@
+* {
+    font-family: 'Asap Condensed', sans-serif;
+    text-align: center;
+}
+body {width: 1500px;
+    margin: auto;}
 .kids {
     width: 50px;
+
 }
-.About-Kids {
-    background-color: aqua;
+.banner {
+    background-image: url(../img/image-background.webp);
+    padding: 50px 0px 500px 0px;
+}
+h1 {
+    font-size: 100px;
+    font-weight: 400px;
     color: white;
 }
 .button-style {
