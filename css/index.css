@@ -6,23 +6,32 @@ body {width: 1500px;
     margin: auto;}
 .kids {
     width: 50px;
-
 }
 .banner {
     background-image: url(../img/image-background.webp);
     padding: 50px 0px 500px 0px;
 }
 h1 {
-    font-size: 100px;
-    font-weight: 400px;
+    font:inherit;
+    font-size: 70px;
+    font-weight: bold;
     color: white;
+    margin-top: 350px;
+}
+.about-us {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
 .button-style {
     border: orange;
     background-color: orange;
     color: white; 
     border-radius: 5em;
-    margin: 10px;}
+    font-weight: bold;
+    box-sizing: 10px 20px;
+
+}
 section {
     background-color: aqua;
     color: white;}
