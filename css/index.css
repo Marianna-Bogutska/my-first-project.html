@@ -4,12 +4,18 @@
 }
 body {width: 1500px;
     margin: auto;}
+.menu {color: black;
+    margin: 0px 30px 0px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 0em;
+}
 .kids {
-    width: 50px;
+    width: 120px;
 }
 .banner {
     background-image: url(../img/image-background.webp);
-    padding: 50px 0px 500px 0px;
+    padding: 50px 0px 350px 0px;
 }
 h1 {
     font:inherit;
@@ -29,12 +35,13 @@ h1 {
     color: white; 
     border-radius: 5em;
     font-weight: bold;
-    box-sizing: 10px 20px;
+    padding-bottom: 25px;
 
 }
 section {
     background-color: aqua;
-    color: white;}
+    color: white;
+}
 .button-learn {
     border: blue;
     background-color: white;
