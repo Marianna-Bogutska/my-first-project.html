@@ -8,7 +8,7 @@ body {width: 1500px;
     margin: 0px 30px 0px 30px;
     font-weight: 600;
     text-decoration: none;
-    padding-bottom: 0em;
+    padding-top: 0em;
 }
 .kids {
     width: 120px;
@@ -16,6 +16,7 @@ body {width: 1500px;
 .banner {
     background-image: url(../img/image-background.webp);
     padding: 50px 0px 350px 0px;
+    background-repeat: no-repeat;
 }
 h1 {
     font:inherit;
@@ -41,9 +42,13 @@ h1 {
 section {
     background-color: aqua;
     color: white;
+    font-weight: bold;
 }
 .button-learn {
     border: blue;
     background-color: white;
     border-radius: 5em;
+}
+h3 {
+    font-size: 40px;
 }
