@@ -1,10 +1,9 @@
 * {
     font-family: 'Asap Condensed', sans-serif;
-    text-align: center;
 }
 body {width: 1500px;
     margin: auto;}
-.menu {color: black;
+.menu {color: white;
     margin: 0px 30px 0px 30px;
     font-weight: 600;
     text-decoration: none;
