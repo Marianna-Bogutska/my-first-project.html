@@ -1,6 +1,7 @@
 * {
     font-family: 'Asap Condensed', sans-serif;
 }
+@media (min-width 500px) { header nav {display:flex;}}
 body {width: 1500px;
     margin: auto;}
 .menu {color: white;
@@ -8,13 +9,20 @@ body {width: 1500px;
     font-weight: 600;
     text-decoration: none;
     padding-top: 0em;
+    font-size: 1.2em;
+}
+nav a:hover {color: greenyellow;}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 870px;
 }
 .kids {
-    width: 120px;
+    width: 130px;
 }
 .banner {
     background-image: url(../img/image-background.webp);
-    padding: 50px 0px 350px 0px;
+    padding: 30px 0px 350px 0px;
     background-repeat: no-repeat;
 }
 h1 {
@@ -22,7 +30,7 @@ h1 {
     font-size: 70px;
     font-weight: bold;
     color: white;
-    margin-top: 350px;
+    margin-top: 300px;
 }
 .about-us {
     color: white;
