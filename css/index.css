@@ -3,7 +3,7 @@
 * {
     font-family: 'Asap Condensed', sans-serif;
 }
-@media (min-width: 500px) { header nav {display:flex;}}
+@media (min-width: 900px) {header nav {display:flex;}}
 body {width: 1500px;
     margin: auto;}
 .menu {color: white;
@@ -86,4 +86,10 @@ h3 {
 .statistic {
     font-weight: bold;
     font-size: 24px;  
+}
+.education-and-care {
+    background-image: url(../img/for-education-and-care.png);
+    text-align: center;
+    min-width: 1200px;
+    background-size: cover;
 }
