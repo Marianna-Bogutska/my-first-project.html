@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
 * {
     font-family: 'Asap Condensed', sans-serif;
 }
@@ -20,6 +21,7 @@ nav {
 }
 .kids {
     width: 130px;
+    margin: 20px;
 }
 .banner {
     background-image: url(../img/image-background.webp);
@@ -28,10 +30,10 @@ nav {
 }
 h1 {
     font:inherit;
-    font-size: 70px;
-    font-weight: bold;
+    font-size: 100px;
+    font-weight: bolder;
     color: white;
-    margin-top: 300px;
+    margin-top: 350px;
     margin-left: 40px;
 }
 .about-us {
@@ -44,18 +46,12 @@ h1 {
     border: orange;
     background-color: orange;
     color: white; 
-    border-radius: 5em;
+    border-radius: 3em;
     font-weight: bold;
-    font-size: 26px;
-    margin-left: 200px;
-    padding: 30px 30px 30px 30px;
+    font-size: 16px;
+    margin: 40px 40px 15px 200px;
+    padding: 15px 15px 15px 15px;
     cursor: pointer;
-}
-
-section {
-    background-color: aqua;
-    color: white;
-    font-weight: bold;
 }
 .button-learn {
     border: blue;
@@ -69,7 +65,7 @@ h2 {
     color: rgb(50, 88, 107);
     text-align: center;}
 h3 {
-    font-size: 50px;
+    font-size: 60px;
 }
 .meta {
     font-family: Asap, sans-serif;
@@ -79,8 +75,15 @@ h3 {
 }
 .students, .seniors, .specialists, .childs{
     background-image: url(../img/fon-section.webp);
+    background-size: cover;
     padding: 50px 42px;
     text-align: center;
+    color: white;
+    font-weight: bold;
     margin-top: 10px;
     border-radius: 20px;
+}
+.statistic {
+    font-weight: bold;
+    font-size: 24px;  
 }
