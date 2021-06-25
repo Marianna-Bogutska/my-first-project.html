@@ -93,3 +93,8 @@ h3 {
     min-width: 1200px;
     background-size: cover;
 }
+.products-carousel .product-image {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
