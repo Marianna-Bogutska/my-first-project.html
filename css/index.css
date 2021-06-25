@@ -25,7 +25,7 @@ nav {
 }
 .banner {
     background-image: url(../img/image-background.webp);
-    padding: 30px 0px 350px 0px;
+    padding: 30px 0px 300px 0px;
     background-repeat: no-repeat;
 }
 h1 {
@@ -64,6 +64,9 @@ h2 {
     font-size: 42px;
     color: rgb(50, 88, 107);
     text-align: center;}
+.our-history {
+    margin-top: 0px
+}
 h3 {
     font-size: 60px;
 }
@@ -76,13 +79,20 @@ h3 {
 .students, .seniors, .specialists, .childs{
     background-image: url(../img/fon-section.webp);
     background-size: cover;
-    padding: 50px 42px;
+    padding: 50px 40px;
     text-align: center;
     color: white;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 10px 20px 0px 20px;
     border-radius: 20px;
 }
+@media (min-width: 560px) {
+    .for-colums {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0px 40px 0px 40px;
+    }
+    } 
 .statistic {
     font-weight: bold;
     font-size: 24px;  

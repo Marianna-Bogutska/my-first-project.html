@@ -1,7 +1,7 @@
 const images = [
-    '../img/september.webp',
-    '../img/march.webp',
-    '../img/may2021.webp',
+    '/img/september.webp',
+    '/img/march.webp',
+    '/img/may2021.webp',
 ];
 let currentSlide = 0;
 function showCurrentSlide() {
@@ -15,4 +15,3 @@ function next() {
 }
     setInterval(next, 1000);
     showCurrentSlide();
-
