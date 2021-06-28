@@ -10,41 +10,8 @@ body {width: 1500px;
      width: 130px;
      margin: 20px;
     }
-nav {
-    display: flex;
-    justify-content: space-between;
-    min-height: 7vh;
-    max-width: 1200px;
-    padding: 0px 20px 10px 1100px;
-    font: white;
-    font-weight: 600;
-    font-size: 1.2em;
-}
-nav a:hover {color: greenyellow;}
-.menu a {
-    color: white;
-}
-
-@media (max-width:1024px) {
-    .menu {
-      width: 40%;
-    }
-}
- .trigger {
-    display: inline-block;
-    margin: 3px;
-    cursor: pointer;
-}
-.trigger i {
-    display: block;
-    width: 30px;
-    height: 6px;
-    margin: 4px auto;
-    background:rgb(50, 88, 107);
-}
-.show {
-    display: block;
-}
+    
+ 
       
   
 .banner {
