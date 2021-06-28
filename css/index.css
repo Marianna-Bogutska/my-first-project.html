@@ -6,53 +6,47 @@
 @media (min-width: 900px) {header nav {display:flex;}}
 body {width: 1500px;
     margin: auto;}
-.menu {color: white;
-    margin: 0px 30px 0px 30px;
+.kids {
+     width: 130px;
+     margin: 20px;
+    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    min-height: 7vh;
+    max-width: 1200px;
+    padding: 0px 20px 10px 1100px;
+    font: white;
     font-weight: 600;
-    text-decoration: none;
-    padding-top: 0em;
     font-size: 1.2em;
 }
 nav a:hover {color: greenyellow;}
-nav {
-    display: flex;
-    justify-content: space-around;
-    min-height: 7vh;
-    max-width: 1200px;
+.menu a {
+    color: white;
 }
-.kids {
-    width: 130px;
-    margin: 20px;
-}
+
 @media (max-width:1024px) {
     .menu {
       width: 40%;
     }
 }
-@media screen and (max-width: 768px) {
-    .menu {
-        position: absolute;
-        right: 0;
-        height: 93vh;
-        top: 7vh;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
+ .trigger {
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
 }
-    .trigger {
-      display: inline-block;
-      margin: 3px;
-      cursor: pointer;
-    }
-    .trigger i {
-      display: block;
-      width: 30px;
-      height: 6px;
-      margin: 4px auto;
-      background: white;
-    }
+.trigger i {
+    display: block;
+    width: 30px;
+    height: 6px;
+    margin: 4px auto;
+    background:rgb(50, 88, 107);
+}
+.show {
+    display: block;
+}
+      
+  
 .banner {
     background-image: url(../img/image-background.webp);
     padding: 30px 0px 300px 0px;
@@ -63,7 +57,7 @@ h1 {
     font-size: 100px;
     font-weight: bolder;
     color: white;
-    margin-top: 350px;
+    margin-top: 200px;
     margin-left: 40px;
 }
 .about-us {
@@ -93,7 +87,8 @@ h2 {
     font-weight: bold;
     font-size: 42px;
     color: rgb(50, 88, 107);
-    text-align: center;}
+    text-align: center;
+}
 .our-history {
     margin-top: 0px
 }
@@ -133,6 +128,19 @@ h3 {
     min-width: 1200px;
     background-size: cover;
 }
+.special-kids {
+ font-size: 44px;
+ font-family: bold;
+ text-align: center;
+ color:rgb(50, 88, 107);
+}
+.special-kids-revue {
+font-size: 24px;
+ font-family: bold;
+ text-align: center;
+ color:rgb(50, 88, 107);
+}
+
 .products-carousel .product-image {
     display: block;
     width: 50%;

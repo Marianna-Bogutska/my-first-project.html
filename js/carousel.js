@@ -13,5 +13,5 @@ function next() {
     if (currentSlide > images.length - 1) currentSlide = 0;
     showCurrentSlide();
 }
-    setInterval(next, 1000);
+    setInterval(next, 3000);
     showCurrentSlide();
