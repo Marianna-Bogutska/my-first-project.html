@@ -4,15 +4,65 @@
     font-family: 'Asap Condensed', sans-serif;
 }
 @media (min-width: 900px) {header nav {display:flex;}}
-body {width: 1500px;
-    margin: auto;}
-.kids {
+body {
+    margin: 0;}
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    ul.topnav li {
+        float: left;
+    }
+    ul.topnav a {
+        display: inline-block;
+        color: #f2f2f2;
+        justify-content: space-around;
+        font-family: Asap, sans-serif;
+        padding: 20px 30px;
+        transition: 0.3s;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    ul.topnav li a:hover {
+        color: greenyellow;
+
+    }
+    ul.topnav li.icon {
+        display: none;
+        width: 100%;
+    }
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        display: inline-block;
+        }
+    }
+@media screen and (max-width: 680px) {
+    ul.topnav.responsive {
+        position: relative; 
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+        }
+    }
+.active {
      width: 130px;
      margin: 20px;
     }
-    
- 
-      
+
   
 .banner {
     background-image: url(../img/image-background.webp);
@@ -27,23 +77,60 @@ h1 {
     margin-top: 200px;
     margin-left: 40px;
 }
+@media screen and (max-width: 680px) {
+    .banner h1 span .about-us {
+    display: block;
+    }
+}
 .about-us {
     color: white;
     font-size: 26px;
     font-weight: bold;
     margin-left: 40px;
 }
-.button-style {
-    border: orange;
-    background-color: orange;
-    color: white; 
-    border-radius: 3em;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 40px 40px 15px 200px;
-    padding: 15px 15px 15px 15px;
-    cursor: pointer;
-}
+span{
+    position: relative;
+    display: inline-flex;
+    width: 160px;
+    height: 55px;
+    margin: 40px 15px 15px 100px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: Asap, sans-serif;
+    
+  }
+  span a:before,
+  span a:after{
+    position: absolute;
+    content: "About KIDS";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid orange;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: white;
+    background: orange;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: black;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+
 .button-learn {
     border: blue;
     background-color: white;
@@ -56,8 +143,9 @@ h2 {
     color: rgb(50, 88, 107);
     text-align: center;
 }
-.our-history {
-    margin-top: 0px
+.products-carousel {
+    margin-top: 0px;
+    width: 100%;
 }
 h3 {
     font-size: 60px;
@@ -71,11 +159,11 @@ h3 {
 .students, .seniors, .specialists, .childs{
     background-image: url(../img/fon-section.webp);
     background-size: cover;
-    padding: 50px 40px;
+    padding: 20px 20px;
     text-align: center;
     color: white;
     font-weight: bold;
-    margin: 10px 20px 0px 20px;
+    margin: 10px 20px 10px 20px;
     border-radius: 20px;
 }
 @media (min-width: 560px) {
@@ -83,6 +171,7 @@ h3 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin: 0px 40px 0px 40px;
+        grid-gap: 5px;
     }
     } 
 .statistic {

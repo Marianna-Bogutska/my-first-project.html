@@ -11,26 +11,17 @@
 
 <body>
     <header class="banner">
-        <a href="#"><img class="kids" src="img/kidsname.webp" alt="name"></a>
-        <div class="nav">
-            <a href="#" class="nav__trigger">
-                <div class="bars"></div>
-            </a>
-            
-            <div class="nav__content">
-                <nav class="nav__list">
-                    <ul>
-                        <li class="nav__item"><a href="#">About&nbsp;us</a></li>
-                        <li class="nav__item"><a href="#">Activities</a></li>
-                        <li class="nav__item"><a href="#">Pricing</a></li>
-                        <li class="nav__item"><a href="#">Contact&nbsp;us</a></li>
-                    </ul>
-                </nav>
-            </div>    
-        </div>        
+        <ul class="topnav" id="myTopnav">
+            <li><a href="#"><img class="active" src="img/kidsname.webp" alt="name"></a></li>
+            <li><a href="about_us">About us</a></li>
+            <li><a href="activities">Activities</a></li>
+            <li><a href="pricing">Pricing</a></li>
+            <li><a href="contact_us">Contact us</a></li>
+            <li class="icon"><a href="burger-menu.js:void(0);" style="font-size: 40px;" onclick="myFunction()">&#9776;</a></li>
+        </ul>
         <h1>Education For Everyone.</h1>
         <p class="about-us">We are a private special education school located in Lviv</p>
-        <button class="button-style">About KIDS</button>
+        <span><a href="#">About KIDS</a></span>
     </header>
     <main>
         <h2 class="our-history">Our History</h2>
@@ -66,7 +57,8 @@
         <div class="education-and-care">
             <h2>Education and Care</h2>
             <p class="special-kids">KIDS Special Education School will find an approach to your child</p>
-            <p class="special-kids-revue">KIDS is a special education school that has been operating since 2014. The teachers of our school
+            <p class="special-kids-revue">KIDS is a special education school that has been operating since 2014. The
+                teachers of our school
                 have a huge experience working with children with special needs.
                 We use the latest learning methods that have proven their effectiveness. We create all the necessary
                 conditions so that every child can receive knowledge in a safe and comfortable environment.
@@ -144,6 +136,7 @@
     </footer>
     <script src="js/carousel.js"></script>
     <script src="js/burger-menu.js"></script>
+
 </body>
 
 
