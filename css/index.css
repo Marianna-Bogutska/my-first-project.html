@@ -114,9 +114,10 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid orange;
     box-sizing: border-box;
     border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
   }
   span a:before{
     color: white;
@@ -130,11 +131,10 @@ span{
   span a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
   }
-
-.button-learn {
-    border: blue;
-    background-color: white;
-    border-radius: 5em;
+.background-history {
+    background-image: url(../img/background-history.png);
+    background-size: cover;
+    width: 100%;
 }
 h2 {
     font-family: Asap, sans-serif;
@@ -144,8 +144,14 @@ h2 {
     text-align: center;
 }
 .products-carousel {
+
     margin-top: 0px;
     width: 100%;
+    padding-bottom: 40px ;
+}
+.our-history {
+    color: white;
+    padding-top: 30px;
 }
 h3 {
     font-size: 60px;
@@ -166,7 +172,7 @@ h3 {
     margin: 10px 20px 10px 20px;
     border-radius: 20px;
 }
-@media (min-width: 560px) {
+@media (min-width: 680px) {
     .for-colums {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -181,8 +187,63 @@ h3 {
 .education-and-care {
     background-image: url(../img/for-education-and-care.png);
     text-align: center;
-    min-width: 1200px;
+    min-width: 680px;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content:end;
+}
+.education-block {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 100px 200px 100px 400px;
+    padding: 100px;
+}
+.button-style {
+    padding: 0.35em 1.2em;
+    border: 0.1em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: color 1s;
+    background-color: orange;
+    height: 40px;
+    width: 130px;
+}
+
+.button-style:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.button-learn {
+    padding: 0.35em 1.2em;
+    border-style: solid;
+    margin: 0 10px 0 10px;
+    border-radius: 0.12em;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: color 1s;
+    background-color: white;
+    border-color: blue;
+    height: 40px;
+    width: 130px;
+}
+.button-learn:hover {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
 }
 .special-kids {
  font-size: 44px;
