@@ -143,15 +143,15 @@ h2 {
     color: rgb(50, 88, 107);
     text-align: center;
 }
-.products-carousel {
-
-    margin-top: 0px;
-    width: 100%;
-    padding-bottom: 40px ;
-}
 .our-history {
     color: white;
     padding-top: 30px;
+}
+.products-carousel .product-image {
+    display: block;
+    width: 65%;
+    margin: 10px 100px 40px 300px;
+    padding-bottom: 40px;
 }
 h3 {
     font-size: 60px;
@@ -203,6 +203,11 @@ h3 {
     margin: 100px 200px 100px 400px;
     padding: 100px;
 }
+@media screen and (min-width: 680px) {
+    .education-and-care .education-block {
+        display: flex;
+    }
+}
 .button-style {
     padding: 0.35em 1.2em;
     border: 0.1em;
@@ -246,7 +251,7 @@ h3 {
     cursor: pointer;
 }
 .special-kids {
- font-size: 44px;
+ font-size: 34px;
  font-family: bold;
  text-align: center;
  color:rgb(50, 88, 107);
@@ -257,9 +262,30 @@ font-size: 24px;
  text-align: center;
  color:rgb(50, 88, 107);
 }
-
-.products-carousel .product-image {
-    display: block;
-    width: 50%;
-    margin: auto;
+.icons {
+    width: 150px;
+    margin: 30px;
+}
+@media (min-width: 680px) {
+    .for-colums-new {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0px 40px 0px 40px;
+        grid-gap: 10px;
+        text-align: center;
+    }
+} 
+.title-icons {
+    font-size: 24px;
+    font-family: bold;
+    text-align: center;
+    color:rgb(50, 88, 107);
+    margin: 20px;
+}
+.about-icons {
+    font-size: 18px;
+    font-family: bold;
+    text-align: center;
+    color:rgb(50, 88, 107);
+    margin: inherit;
 }
