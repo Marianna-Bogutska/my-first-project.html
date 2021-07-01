@@ -115,7 +115,7 @@ h1 {
     background-size: cover;
     width: 100%;
 }
-h2 {
+h2 .row {
     font-family: Asap, sans-serif;
     font-weight: 500px;
     font-size: 40px;
@@ -138,6 +138,7 @@ h2 {
 }
 h3 {
     font-size: 60px;
+    color: rgb(50, 88, 107);
 }
 .meta {
     font-family: Asap, sans-serif;
@@ -305,6 +306,12 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     -webkit-transition: all 0.225s ease;
     transition: all 0.225s ease;
 }
+.container {
+    background-image: url(../img/background-form.png);
+    width: 80%;
+    background-repeat: no-repeat;
+    margin: 10px 40px 20px 100px;
+}
 
 .styled-input {
     float: left;
@@ -313,13 +320,11 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     position: relative;
     border-radius: 4px;
 }
-
 @media only screen and (max-width: 768px){
     .styled-input {
         width:100%;
     }
 }
-
 .styled-input label {
     color: #999;
     padding: 1.3rem 30px 1rem 30px;
@@ -342,8 +347,8 @@ textarea {
     border: 0;
     width: 100%;
     font-size: 1rem;
-    background-color: orange;
-    color: white;
+    background-color: white;
+    color: grey;
     border-radius: 4px;
 }
 
