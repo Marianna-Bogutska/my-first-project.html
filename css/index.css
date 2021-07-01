@@ -115,16 +115,18 @@ h1 {
     background-size: cover;
     width: 100%;
 }
-h2 .row {
+ h2 {
     font-family: Asap, sans-serif;
     font-weight: 500px;
     font-size: 40px;
-    color: rgb(50, 88, 107);
     text-align: center;
 }
 .our-history {
     color: white;
     padding-top: 30px;
+    text-align: center;
+    font-weight: 500px;
+    font-size: 40px;
 }
 .product-image {
     width: 600px;
@@ -138,7 +140,8 @@ h2 .row {
 }
 h3 {
     font-size: 60px;
-    color: rgb(50, 88, 107);
+    color: white;
+    text-align: center;
 }
 .meta {
     font-family: Asap, sans-serif;
