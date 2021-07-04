@@ -1,9 +1,9 @@
 const images = [
-    'img/september.webp',
+    'img/september.png',
     'img/sept.png',
     'img/march.webp',
     'img/march2015.png',
-    'img/may2021.webp',
+    'img/may2021.png',
     'img/may.png'
 ];
 let currentSlide = 0;
