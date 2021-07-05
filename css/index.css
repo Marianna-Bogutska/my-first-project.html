@@ -313,9 +313,9 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 }
 .container {
     background-image: url(../img/background-form.png);
-    width: 80%;
+    width: 60%;
     background-repeat: no-repeat;
-    margin: 10px 40px 20px 100px;
+    margin: 10px 40px 20px 200px;
 }
 
 .styled-input {
@@ -414,4 +414,11 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
+}
+h5 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color:rgb(50, 88, 107);
+    padding-top: 30px;
 }
